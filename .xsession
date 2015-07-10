@@ -1,1 +1,1 @@
-/home/james/.xinitrc
+./.xinitrc
