@@ -1,0 +1,10 @@
+default partial alphanumeric_keys
+xkb_symbols "vim_arrows" {
+  replace key <LWIN> {[ISO_Level3_Shift]};
+
+  key <AC06> { [         h,          H,          Left,             Left ] };
+  key <AC07> { [         j,          J,          Down,             Down ] };
+  key <AC08> { [         k,          K,            Up,               Up ] };
+  key <AC09> { [         l,          L,         Right,            Right ] };
+};
+

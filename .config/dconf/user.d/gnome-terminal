@@ -1,0 +1,19 @@
+[org/gnome/terminal/legacy/profiles:/:b0e363c6-21be-45a8-8d51-9133d11eb881]
+foreground-color='#c5c8c6'
+background-color='#1d1f21'
+visible-name='Base16 Tomorrow (Dark)'
+scroll-on-output=true
+use-theme-colors=false
+use-theme-background=false
+scrollback-unlimited=false
+bold-color-same-as-fg=true
+bold-color='#c5c8c6'
+palette=['#1d1f21', '#cc6666', '#b5bd68', '#f0c674', '#81a2be', '#b294bb', '#8abeb7', '#c5c8c6', '#969896', '#cc6666', '#b5bd68', '#f0c674', '#81a2be', '#b294bb', '#8abeb7', '#ffffff']
+
+[org/gnome/terminal/legacy/profiles:]
+list=['b0e363c6-21be-45a8-8d51-9133d11eb881']
+default='b0e363c6-21be-45a8-8d51-9133d11eb881'
+
+[org/gnome/terminal/legacy]
+schema-version=uint32 3
+default-show-menubar=false
