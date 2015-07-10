@@ -1,3 +1,5 @@
 [user]
 	email = james.keane@gmail.com
 	name = James Keane
+[push]
+	default = simple
