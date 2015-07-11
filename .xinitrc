@@ -29,7 +29,7 @@ unity-settings-daemon &
 /sbin/initctl emit indicator-services-start
 
 # Start wm and apps
-xmonad &
+$HOME/.dwm/dwm &
 GTK_IM_MODULE='' synapse &  # synapse is broken with xim
 
 # Hand off to gnome
