@@ -6,6 +6,7 @@ import XMonad.Util.EZConfig
 import XMonad.Util.Paste
 import XMonad.Layout.NoBorders
 import XMonad.Layout.Minimize
+import XMonad.Hooks.EwmhDesktops
 
 myModMask = mod1Mask
 myFloatMask = composeAll [
@@ -27,7 +28,7 @@ myKeys =
       , (f, mask) <- [(viewScreen, 0), (sendToScreen, shiftMask)]]
 
 main = 
-    xmonad $ gnomeConfig
+    xmonad $ ewmh gnomeConfig
     {
 	manageHook = myFloatMask <+> manageHook gnomeConfig, 
 	modMask = myModMask,

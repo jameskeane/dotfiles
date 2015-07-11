@@ -30,7 +30,7 @@ unity-settings-daemon &
 
 # Start wm and apps
 xmonad &
-GTK_IM_MODULE='' synapse &  # synapse is broken with xim
+synapse &
 
 # Hand off to gnome
 exec gnome-session --session=""
