@@ -83,5 +83,10 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+subl() {
+  /opt/sublime_text/sublime_text $@ > /dev/null 2> /dev/null &
+  disown
+}
+
 # Load SCM breeze
 [ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
