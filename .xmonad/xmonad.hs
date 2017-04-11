@@ -32,7 +32,7 @@ main =
     {
 	manageHook = myFloatMask <+> manageHook gnomeConfig, 
 	modMask = myModMask,
-        logHook = updatePointer $ Relative 0.5 0.5,
+        logHook = updatePointer (0.5, 0.5) (0, 0),
 	layoutHook = minimize $ smartBorders (layoutHook gnomeConfig),
         focusedBorderColor = "#E84C3D",
         normalBorderColor = "#595959"

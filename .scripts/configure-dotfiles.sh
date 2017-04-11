@@ -21,16 +21,3 @@ fi
 unset XKBDIR
 unset XKBMAPFILE
 
-# Start up the gnome serives
-gnome-flashback --initialize &
-gnome-flashback &
-gnome-panel &
-unity-settings-daemon &
-/sbin/initctl emit indicator-services-start
-
-# Start wm and apps
-xmonad &
-synapse &
-
-# Hand off to gnome
-exec gnome-session --session=""

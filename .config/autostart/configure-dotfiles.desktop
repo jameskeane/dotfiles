@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=configure-dotfiles.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_CA]=Configure dotfiles
+Name=Configure dotfiles
+Comment[en_CA]=
+Comment=
