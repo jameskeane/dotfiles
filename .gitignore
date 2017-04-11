@@ -15,3 +15,5 @@
 !.xinitrc
 !.zshrc
 !.xsession
+!.pam_environment
+
