@@ -4,3 +4,6 @@
 [submodule ".oh-my-zsh"]
 	path = .oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
+[submodule ".local/dwm"]
+	path = .local/dwm
+	url = git@github.com:jameskeane/dwm.git
