@@ -21,3 +21,15 @@ Videos/
 .zsh-update
 .pki/
 VirtualBox VMs/
+.wget-hsts
+.vim*
+.parallels
+.local/share
+.config
+.bash_logout
+.compiz
+.lesshst
+.bashrc
+.local/bin
+.dmrc
+.profile

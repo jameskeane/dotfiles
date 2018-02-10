@@ -1,0 +1,4 @@
+[GNOME Session]
+Name=dwm session
+RequiredComponents=dwm;gnome-settings-daemon;gnome-panel
+

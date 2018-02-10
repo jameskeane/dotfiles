@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Load dconf settings from text configuration files
+# Config files are in the `dconf dump` format, and looked up in:
+#   1. $XDG_CONFIG_HOME/dconf/user.d/*
+#   2. $HOME/deconf/user.d/*
+if [ -n "$XDG_CONFIG_HOME" ]; then
+  CONFIG_HOME="$XDG_CONFIG_HOME"
+else
+  CONFIG_HOME="$HOME/.config"
+fi
+run-parts --list $CONFIG_HOME/dconf/user.d | xargs cat | dconf load /
+unset CONFIG_HOME
