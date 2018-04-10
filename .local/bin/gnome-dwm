@@ -7,7 +7,7 @@ test -n "$DESKTOP_AUTOSTART_ID" && {
 
 _rel=25
 while [ $_rel = 25 ]; do
-  dwm
+  dwm 2> ~/.local/dwm/stderr.log
   _rel=$?
 done
 

@@ -82,6 +82,7 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias @="python manage.py"
 
 subl() {
   /opt/sublime_text/sublime_text $@ > /dev/null 2> /dev/null &

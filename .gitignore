@@ -33,3 +33,7 @@ VirtualBox VMs/
 .local/bin
 .dmrc
 .profile
+.gnome
+.mozilla
+.npm
+.npmrc
