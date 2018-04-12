@@ -24,7 +24,7 @@ export PATH=$HOME/.local/bin:$PATH
 
 #prlcc &
 #ptiagent --info &
-synapse &
+#synapse &
 #gnome-panel &
 exec gnome-session --session=dwm
 #/sbin/initctl emit indicator-services-start
