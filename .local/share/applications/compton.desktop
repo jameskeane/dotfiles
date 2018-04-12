@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=compton
+Exec=compton
+NoDisplay=true
+X-GNOME-Provides=compositor
+X-GNOME-Autostart-Notify=false

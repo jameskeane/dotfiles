@@ -1,7 +1,8 @@
 [GNOME Session]
 Name=dwm session
-RequiredComponents=dwm;gnome-settings-daemon;gnome-panel
-RequiredProviders=windowmanager;notifications;panel
+RequiredComponents=dwm;compton;gnome-settings-daemon;gnome-panel
+RequiredProviders=windowmanager;compositor;notifications;panel
 DefaultProvider-windowmanager=dwm
+DefaultProvider-compositor=compton
 DefaultProvider-notifications=notification-daemon
 DefaultProvider-panel=gnome-panel
