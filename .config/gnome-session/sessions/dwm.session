@@ -1,8 +1,6 @@
 [GNOME Session]
 Name=dwm session
-RequiredComponents=dwm;compton;gnome-settings-daemon;gnome-panel
-RequiredProviders=windowmanager;compositor;notifications;panel
+RequiredComponents=dwm;xfce4-panel;mutter-hack;org.gnome.SettingsDaemon.A11ySettings;org.gnome.SettingsDaemon.Clipboard;org.gnome.SettingsDaemon.Color;org.gnome.SettingsDaemon.Datetime;org.gnome.SettingsDaemon.Housekeeping;org.gnome.SettingsDaemon.Keyboard;org.gnome.SettingsDaemon.MediaKeys;org.gnome.SettingsDaemon.Mouse;org.gnome.SettingsDaemon.Power;org.gnome.SettingsDaemon.PrintNotifications;org.gnome.SettingsDaemon.Rfkill;org.gnome.SettingsDaemon.ScreensaverProxy;org.gnome.SettingsDaemon.Sharing;org.gnome.SettingsDaemon.Smartcard;org.gnome.SettingsDaemon.Sound;org.gnome.SettingsDaemon.Wacom;org.gnome.SettingsDaemon.XSettings
+RequiredProviders=windowmanager;panel
 DefaultProvider-windowmanager=dwm
-DefaultProvider-compositor=compton
-DefaultProvider-notifications=notification-daemon
-DefaultProvider-panel=gnome-panel
+DefaultProvider-panel=xfce4-panel

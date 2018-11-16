@@ -1,0 +1,4 @@
+xfce4-panel xfce4-indicator-plugin indicator-bluetooth indicator-common indicator-power indicator-sound
+gnome-settings-daemon
+make gcc libxft-dev libx11-dev libxinerama-dev
+
