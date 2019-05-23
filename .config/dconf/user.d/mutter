@@ -1,0 +1,4 @@
+# Disable mutter hijacking the meta key
+[org/gnome/mutter]
+overlay-key='Foo'
+

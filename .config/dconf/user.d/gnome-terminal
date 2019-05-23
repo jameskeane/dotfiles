@@ -19,3 +19,4 @@ default='b0e363c6-21be-45a8-8d51-9133d11eb881'
 [org/gnome/terminal/legacy]
 schema-version=uint32 3
 default-show-menubar=false
+headerbar=@mb false

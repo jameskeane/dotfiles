@@ -84,10 +84,5 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias @="python manage.py"
 
-subl() {
-  /opt/sublime_text/sublime_text $@ > /dev/null 2> /dev/null &
-  disown
-}
-
 # Load SCM breeze
 [ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"

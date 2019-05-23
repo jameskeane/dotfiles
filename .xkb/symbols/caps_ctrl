@@ -1,6 +1,0 @@
-default partial modifier_keys
-xkb_symbols "caps_ctrl" {
-  replace key <CAPS> { [ VoidSymbol, VoidSymbol] };
-  modifier_map Control{ Control_L, Control_R, <CAPS> };
-};
-

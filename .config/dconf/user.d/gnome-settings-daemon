@@ -1,4 +1,0 @@
-# Disable the daemon from fucking with the keyboard bindings
-[org/gnome/settings-daemon/plugins/keyboard]
-active=false
-

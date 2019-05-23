@@ -1,0 +1,4 @@
+#!/bin/sh
+# xsessionrc is loaded before the XDG config paths, we want it to use flashback
+export DESKTOP_SESSION=gnome-flashback-metacity
+export XDG_CURRENT_DESKTOP="GNOME-Flashback:GNOME"

@@ -37,3 +37,7 @@ VirtualBox VMs/
 .mozilla
 .npm
 .npmrc
+.gnupg
+.kube
+.nv
+.nvidia-settings-rc
