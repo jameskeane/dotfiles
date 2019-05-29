@@ -7,3 +7,6 @@
 [submodule ".local/dwm"]
 	path = .local/dwm
 	url = git@github.com:jameskeane/dwm.git
+[submodule ".nvm"]
+	path = .nvm
+	url = git@github.com:nvm-sh/nvm.git

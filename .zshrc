@@ -52,7 +52,8 @@ ZSH_THEME="theunraveler"
 plugins=(command-not-found)
 
 # User configuration
-
+# Load local zsh completions
+fpath=($HOME/.local/share/zsh/vendor-completions $fpath)
 export PATH="$HOME/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games"
 # export MANPATH="/usr/local/man:$MANPATH"
 
@@ -82,7 +83,14 @@ fi
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias python="python3"
+alias pip="pip3"
 alias @="python manage.py"
 
-# Load SCM breeze
+# Load SCM breeze and NVM
 [ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+[ -s "$HOME/.nvm/nvm.sh" ] && source "$HOME/.nvm/nvm.sh" && source "$HOME/.nvm/bash_completion"
+
+# Enable completions for pipenv
+[ -s `which pipenv` ] && eval "$(pipenv --completion)"
+

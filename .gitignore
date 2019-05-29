@@ -41,3 +41,6 @@ VirtualBox VMs/
 .kube
 .nv
 .nvidia-settings-rc
+Virtual Machines
+.virtualenvs
+.yarnrc
